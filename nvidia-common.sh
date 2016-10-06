@@ -11,6 +11,6 @@ path_prepend() {
 
 export PATH=$(path_prepend "$PATH" "/opt/nvidia-common/bin")
 export PKG_CONFIG_PATH=$(path_prepend "$PKG_CONFIG_PATH" "/opt/nvidia-common/lib64/pkgconfig")
-export MANPATH=$(path_prepend "$(manpath)" "/opt/nvidia-common/share/man")
+export MANPATH=$(path_prepend "$(manpath >/dev/null 2>&1)" "/opt/nvidia-common/share/man")
 
 unset path_prepend
