@@ -9,7 +9,7 @@
 
 Name:           nvidia-common
 Version:        1.0.0
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        System integration tools for NVIDIA proprietary software
 
 License:        MIT
@@ -81,5 +81,8 @@ EOF
 
 
 %changelog
+* Tue Oct 11 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.0.0-6
+- Fix manpath redirection error
+
 * Thu Oct 06 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.0.0-5
 - Public release
