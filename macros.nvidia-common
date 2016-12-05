@@ -1,0 +1,7 @@
+%_nvidia_prefix      /opt/nvidia-common
+%_nvidia_bindir      %{_nvidia_prefix}/bin
+%_nvidia_includedir  %{_nvidia_prefix}/include
+%_nvidia_libdir      %{_nvidia_prefix}/%{_lib}
+%_nvidia_datadir     %{_nvidia_prefix}/share
+%_nvidia_docdir      %{_nvidia_prefix}/share/doc
+%_nvidia_mandir      %{_nvidia_prefix}/share/man
